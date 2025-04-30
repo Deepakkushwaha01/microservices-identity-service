@@ -1,5 +1,3 @@
-import RefreshToken from '../../models/RefreshToken.schema'
-import { globalConstants } from '../constants/global.constant'
 import { createJwtToken, encryptRefreshToken } from './createJwtToken'
 
 interface IUser {
@@ -8,8 +6,10 @@ interface IUser {
 }
 
 export const generateTokens = async (user: IUser) => {
-  const accessToken = createJwtToken(user)
-  const refreshToken = encryptRefreshToken(user)
+  const [accessToken, refreshToken] = await Promise.all([
+    createJwtToken(user),
+    encryptRefreshToken(user)
+  ])
 
   return {
     accessToken,

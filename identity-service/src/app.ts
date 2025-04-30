@@ -4,6 +4,8 @@ import dotenv from 'dotenv'
 import connectToDb from './DB/connectToDb'
 import logger from './logs/logger'
 import chalk from 'chalk'
+import helmet from 'helmet'
+import cors from 'cors'
 
 const app: Express = express()
 dotenv.config()
@@ -17,6 +19,14 @@ app.use(express.json())
 // extended: true allows parsing of nested objects
 app.use(express.urlencoded({ extended: true }))
 app.use(router)
+
+// Middleware to set security-related HTTP headers
+// This helps protect the app from some well-known web vulnerabilities
+// by setting HTTP headers appropriately
+// For example, it can help prevent XSS attacks, clickjacking, etc.
+// It is a good practice to use helmet in production environments
+app.use(helmet())
+app.use(cors())
 
 app.listen(PORT, () => {
   logger.info(chalk.magenta(`Identity service is running on port ${PORT}`))

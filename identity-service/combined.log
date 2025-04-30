@@ -483,3 +483,11 @@
 [36midentity-service:[39m [33m2025-04-30 23:18:28[39m : [31merror[39m: Token generation error Error creating refresh token in database
 [36midentity-service:[39m [33m2025-04-30 23:18:42[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
 [36midentity-service:[39m [33m2025-04-30 23:18:44[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-04-30 23:36:18[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36midentity-service:[39m [33m2025-04-30 23:36:20[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-04-30 23:36:51[39m : [35mwarn[39m: Validation error
+[36midentity-service:[39m [33m2025-04-30 23:37:10[39m : [35mwarn[39m: Validation error
+[36midentity-service:[39m [33m2025-04-30 23:41:25[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36midentity-service:[39m [33m2025-04-30 23:41:28[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-04-30 23:42:37[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36midentity-service:[39m [33m2025-04-30 23:42:40[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
