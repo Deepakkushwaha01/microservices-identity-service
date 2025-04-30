@@ -7,11 +7,11 @@ const express_1 = __importDefault(require("express"));
 const route_1 = __importDefault(require("./routes/route"));
 const dotenv_1 = __importDefault(require("dotenv"));
 const connectToDb_1 = __importDefault(require("./DB/connectToDb"));
-const logger_1 = __importDefault(require("./utils/logger"));
+const logger_1 = __importDefault(require("./logs/logger"));
 const chalk_1 = __importDefault(require("chalk"));
 const app = (0, express_1.default)();
-const PORT = process.env.PORT || 3001;
 dotenv_1.default.config();
+const PORT = process.env.PORT || 3001;
 (0, connectToDb_1.default)();
 // Middleware to parse incoming JSON data from client (like from frontend)
 app.use(express_1.default.json());

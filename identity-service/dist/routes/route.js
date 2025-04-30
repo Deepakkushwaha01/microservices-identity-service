@@ -4,10 +4,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
+const identity_register_controller_1 = __importDefault(require("../controllers/identity/identity.register.controller"));
 const router = express_1.default.Router();
-router.get('/', (req, res) => {
-    res.send('Hello from the identity service!');
-});
+router.post('/register-identity', identity_register_controller_1.default);
 router.get('/health', (req, res) => {
     res.status(200).json({ status: 'UP' });
 });

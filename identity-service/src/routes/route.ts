@@ -1,13 +1,12 @@
-import express from 'express';
+import express from 'express'
+import registerIdentity from '../controllers/identity/identity.register.controller'
 
-const router = express.Router();
+const router = express.Router()
 
-router.get('/', (req, res) => {
-  res.send('Hello from the identity service!');
-});
+router.post('/register-identity', registerIdentity)
 
 router.get('/health', (req, res) => {
-  res.status(200).json({ status: 'UP' });
-});
+  res.status(200).json({ status: 'UP' })
+})
 
-export default router;
+export default router

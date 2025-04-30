@@ -12,16 +12,20 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const mongoose_1 = __importDefault(require("mongoose"));
-const logger_1 = __importDefault(require("../logs/logger"));
-const connectToDb = () => __awaiter(void 0, void 0, void 0, function* () {
-    try {
-        const conn = yield mongoose_1.default.connect(process.env.MONGODB_URI);
-        logger_1.default.info(`MongoDB connected: ${conn.connection.host}`);
+exports.comparePassword = exports.hashPassword = void 0;
+const bcrypt_1 = __importDefault(require("bcrypt"));
+const dotenv_1 = __importDefault(require("dotenv"));
+const global_constant_1 = require("../constants/global.constant");
+dotenv_1.default.config();
+const slat = process.env.BCRYPT_SALT;
+const hashPassword = (password) => __awaiter(void 0, void 0, void 0, function* () {
+    if (!slat) {
+        throw new Error(global_constant_1.globalConstants.BCRYPT_SALT_ERROR);
     }
-    catch (error) {
-        logger_1.default.error("❌ MongoDB connection failed:", error);
-        process.exit(1); // Exit the app if DB connection fails
-    }
+    return yield bcrypt_1.default.hash(password, parseInt(slat));
 });
-exports.default = connectToDb;
+exports.hashPassword = hashPassword;
+const comparePassword = (password, hashedPassword) => __awaiter(void 0, void 0, void 0, function* () {
+    return yield bcrypt_1.default.compare(password, hashedPassword);
+});
+exports.comparePassword = comparePassword;

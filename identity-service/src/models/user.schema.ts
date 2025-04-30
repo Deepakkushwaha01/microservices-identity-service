@@ -1,8 +1,9 @@
 import mongoose from "mongoose";
 import { userRole } from "../utils/enums/user-role.enum";
+import { Models } from "../utils/enums/model.enums";
 
 const userSchema = new mongoose.Schema({
-    name: {
+    userName: {
         type: String,
         required: true,
     },
@@ -14,6 +15,7 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true,
+        unique: true,
     },
     role: {
         type: String,
@@ -23,6 +25,8 @@ const userSchema = new mongoose.Schema({
     },
 }, { timestamps: true });
 
+userSchema.index({ email: 1 }, { unique: true });
 
-const User = mongoose.model("User", userSchema);
+
+const User = mongoose.model(Models.USER, userSchema);
 export default User;

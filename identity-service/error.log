@@ -1,0 +1,48 @@
+[36midentity-service:[39m [33m2025-04-30 20:38:51[39m : [31merror[39m: Registration error Method no longer accepts array arguments: valid
+[36midentity-service:[39m [33m2025-04-30 20:39:32[39m : [31merror[39m: Registration error Method no longer accepts array arguments: valid
+[36midentity-service:[39m [33m2025-04-30 20:40:29[39m : [31merror[39m: Registration error Method no longer accepts array arguments: valid
+[36midentity-service:[39m [33m2025-04-30 20:41:21[39m : [31merror[39m: Registration error Method no longer accepts array arguments: valid
+[36midentity-service:[39m [33m2025-04-30 20:41:51[39m : [31merror[39m: Registration error Method no longer accepts array arguments: valid
+[36midentity-service:[39m [33m2025-04-30 20:42:18[39m : [31merror[39m: Registration error Method no longer accepts array arguments: valid
+[36midentity-service:[39m [33m2025-04-30 20:43:24[39m : [31merror[39m: Registration error Method no longer accepts array arguments: valid
+[36midentity-service:[39m [33m2025-04-30 21:22:59[39m : [31merror[39m: Failed to create user data and salt arguments required
+[36midentity-service:[39m [33m2025-04-30 21:27:24[39m : [31merror[39m: Failed to create user data and salt arguments required
+[36midentity-service:[39m [33m2025-04-30 21:32:10[39m : [31merror[39m: Failed to create user data and salt arguments required
+[36midentity-service:[39m [33m2025-04-30 21:33:18[39m : [31merror[39m: Failed to create user data and salt arguments required
+[36midentity-service:[39m [33m2025-04-30 21:34:28[39m : [31merror[39m: Failed to create user data and salt arguments required
+[36midentity-service:[39m [33m2025-04-30 21:35:27[39m : [31merror[39m: Failed to create user data and salt arguments required
+[36midentity-service:[39m [33m2025-04-30 21:36:07[39m : [31merror[39m: Failed to create user data and salt arguments required
+[36midentity-service:[39m [33m2025-04-30 22:01:27[39m : [31merror[39m: Failed to create user data and salt arguments required
+[36midentity-service:[39m [33m2025-04-30 22:01:49[39m : [31merror[39m: Failed to create user Invalid salt. Salt must be in the form of: $Vers$log2(NumRounds)$saltvalue
+[36midentity-service:[39m [33m2025-04-30 22:02:17[39m : [31merror[39m: Token generation error REFRESH_TOKEN_SECRET must be 32 characters long
+[36midentity-service:[39m [33m2025-04-30 22:03:31[39m : [31merror[39m: Token generation error REFRESH_TOKEN_SECRET must be 32 characters long
+[36midentity-service:[39m [33m2025-04-30 22:08:29[39m : [31merror[39m: Token generation error REFRESH_TOKEN_SECRET must be 32 characters long
+[36midentity-service:[39m [33m2025-04-30 22:09:13[39m : [31merror[39m: Token generation error REFRESH_TOKEN_SECRET must be 32 characters long
+[36midentity-service:[39m [33m2025-04-30 22:09:59[39m : [31merror[39m: Token generation error REFRESH_TOKEN_SECRET must be 32 characters long
+[36midentity-service:[39m [33m2025-04-30 22:11:13[39m : [31merror[39m: Token generation error Invalid key length
+[36midentity-service:[39m [33m2025-04-30 22:12:28[39m : [31merror[39m: Token generation error Invalid initialization vector
+[36midentity-service:[39m [33m2025-04-30 22:15:26[39m : [31merror[39m: Token generation error Cannot set headers after they are sent to the client
+[36midentity-service:[39m [33m2025-04-30 22:26:57[39m : [31merror[39m: Token generation error Error creating refresh token in database
+[36midentity-service:[39m [33m2025-04-30 22:26:58[39m : [31merror[39m: Failed to create user Cannot set headers after they are sent to the client
+[36midentity-service:[39m [33m2025-04-30 22:28:20[39m : [31merror[39m: Token generation error Error creating refresh token in database
+[36midentity-service:[39m [33m2025-04-30 22:28:20[39m : [31merror[39m: Failed to create user Cannot set headers after they are sent to the client
+[36midentity-service:[39m [33m2025-04-30 22:29:42[39m : [31merror[39m: Token generation error Error creating refresh token in database
+[36midentity-service:[39m [33m2025-04-30 22:29:42[39m : [31merror[39m: Failed to create user Cannot set headers after they are sent to the client
+[36midentity-service:[39m [33m2025-04-30 22:37:40[39m : [31merror[39m: Token generation error Error creating refresh token in database
+[36midentity-service:[39m [33m2025-04-30 22:44:01[39m : [31merror[39m: Token generation error Error creating refresh token in database
+[36midentity-service:[39m [33m2025-04-30 22:47:18[39m : [31merror[39m: Failed to create user Transaction numbers are only allowed on a replica set member or mongos
+[36midentity-service:[39m [33m2025-04-30 22:48:01[39m : [31merror[39m: Failed to create user Transaction numbers are only allowed on a replica set member or mongos
+[36midentity-service:[39m [33m2025-04-30 22:59:23[39m : [31merror[39m: Failed to create user Transaction numbers are only allowed on a replica set member or mongos
+[36midentity-service:[39m [33m2025-04-30 23:05:56[39m : [31merror[39m: Failed to create user Transaction numbers are only allowed on a replica set member or mongos
+[36midentity-service:[39m [33m2025-04-30 23:08:19[39m : [31merror[39m: Token generation error Error creating refresh token in database
+[36midentity-service:[39m [33m2025-04-30 23:15:25[39m : [31merror[39m: Token generation error Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+[36midentity-service:[39m [33m2025-04-30 23:15:55[39m : [31merror[39m: Token generation error Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+[36midentity-service:[39m [33m2025-04-30 23:18:28[39m : [31merror[39m: Token generation error Error creating refresh token in database
