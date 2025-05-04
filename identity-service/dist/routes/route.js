@@ -7,7 +7,16 @@ const express_1 = __importDefault(require("express"));
 const identity_register_controller_1 = __importDefault(require("../controllers/identity/identity.register.controller"));
 const router = express_1.default.Router();
 router.post('/register-identity', identity_register_controller_1.default);
+// Example of errorhandler in middleware
+// This is a sample route that throws an error to demonstrate the error handling middleware
+router.get('/cause-error', (req, res, next) => {
+    throw new Error('This is a sample error!');
+});
 router.get('/health', (req, res) => {
-    res.status(200).json({ status: 'UP' });
+    res.status(200).json({
+        status: 'success',
+        message: 'Identity service is up and running',
+        timestamp: new Date().toISOString()
+    });
 });
 exports.default = router;

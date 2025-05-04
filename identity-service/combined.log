@@ -491,3 +491,129 @@
 [36midentity-service:[39m [33m2025-04-30 23:41:28[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
 [36midentity-service:[39m [33m2025-04-30 23:42:37[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
 [36midentity-service:[39m [33m2025-04-30 23:42:40[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:35:00[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36midentity-service:[39m [33m2025-05-04 10:35:02[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:40:41[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:40:44[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:41:50[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:41:52[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:42:36[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:42:38[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:42:59[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:43:02[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:43:04[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:43:06[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:43:21[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:43:23[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:43:35[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:43:37[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:43:44[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:43:47[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:46:44[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:46:46[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:47:04[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:47:07[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:47:25[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:47:27[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:50:13[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:50:15[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:51:04[39m : [31merror[39m: Error: Something went wrong in /cause-error
+    at /Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/src/routes/route.ts:9:9
+    at Layer.handleRequest (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/layer.js:152:17)
+    at /Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:295:15
+    at processParams (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:582:12)
+    at next (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:186:3)
+[36midentity-service:[39m [33m2025-05-04 10:51:40[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:51:43[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:51:44[39m : [31merror[39m: Error
+    at /Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/src/routes/route.ts:9:9
+    at Layer.handleRequest (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/layer.js:152:17)
+    at /Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:295:15
+    at processParams (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:582:12)
+    at next (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:186:3)
+[36midentity-service:[39m [33m2025-05-04 10:51:58[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:52:01[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:52:02[39m : [31merror[39m: Error
+    at /Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/src/routes/route.ts:9:9
+    at Layer.handleRequest (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/layer.js:152:17)
+    at /Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:295:15
+    at processParams (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:582:12)
+    at next (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:186:3)
+[36midentity-service:[39m [33m2025-05-04 10:52:49[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:52:52[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:52:54[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:52:57[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 10:53:09[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 10:53:11[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 11:31:27[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 11:31:29[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 11:32:14[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 11:32:17[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 11:32:31[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 11:32:33[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 11:33:01[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 11:33:03[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 11:33:11[39m : [31merror[39m: Error: This is a sample error!
+    at /Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/src/routes/route.ts:11:9
+    at Layer.handleRequest (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/layer.js:152:17)
+    at next (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/route.js:117:3)
+    at handle (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/layer.js:152:17)
+    at /Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:295:15
+    at processParams (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:582:12)
+    at next (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:291:5)
+    at Function.handle (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:186:3)
+[36midentity-service:[39m [33m2025-05-04 11:33:34[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 11:33:36[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 11:34:21[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 11:34:24[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 11:35:02[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 11:35:04[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 11:35:29[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 11:35:31[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 11:36:42[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 11:36:45[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 11:37:03[39m : [35mwarn[39m: Sensitive endpoint rate limit exceeded for IP: ::1
+[36midentity-service:[39m [33m2025-05-04 11:37:05[39m : [35mwarn[39m: Sensitive endpoint rate limit exceeded for IP: ::1
+[36midentity-service:[39m [33m2025-05-04 11:38:23[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 11:38:26[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 12:10:55[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 12:10:57[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 12:16:44[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 12:16:46[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 12:21:10[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 12:21:12[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 12:21:20[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 12:21:22[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 12:21:40[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 12:21:43[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 12:22:05[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 12:22:07[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 12:22:57[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 12:22:59[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 12:23:09[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 12:23:11[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 12:29:08[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 12:29:11[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 12:29:27[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 12:29:27[39m : [32minfo[39m: Redis client connected successfully
+[36midentity-service:[39m [33m2025-05-04 12:29:29[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 12:31:52[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 12:31:52[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-04 12:31:54[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net

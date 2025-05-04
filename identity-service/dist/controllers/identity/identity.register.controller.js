@@ -58,11 +58,17 @@ const registerIdentity = (req, res) => __awaiter(void 0, void 0, void 0, functio
             });
             const expiresAt = new Date();
             expiresAt.setDate(expiresAt.getDate() + 7);
-            yield RefreshToken_schema_1.default.create({
-                token: tokens.refreshToken,
-                user: newUser._id,
-                expiresAt
-            }, { session }).catch(err => {
+            // (node:70305) [MONGOOSE] Warning: WARNING: to pass a `session` to `Model.create()` in Mongoose, you **must** pass an array as the first argument. See: https://mongoosejs.com/docs/api/model.html#Model.create()
+            // Rule: When we use transactions in Mongoose, we need to pass an array to the `Model.create()` method, even if we are creating a single document. This is because Mongoose expects an array of documents to be passed in when using transactions. If we pass a single document, Mongoose will not know how to handle the session correctly.
+            // This is a Mongoose requirement when using transactions.
+            // The session is used to ensure that the operation is atomic and can be rolled back if there is an error.
+            yield RefreshToken_schema_1.default.create([
+                {
+                    token: tokens.refreshToken,
+                    user: newUser._id,
+                    expiresAt
+                }
+            ], { session }).catch(err => {
                 throw new Error(global_constant_1.globalConstants.CREATE_REFRESH_TOKEN_ERROR);
             });
             res.cookie('accessToken', tokens.accessToken, {

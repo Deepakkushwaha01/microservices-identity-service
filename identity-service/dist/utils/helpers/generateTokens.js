@@ -12,8 +12,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.generateTokens = void 0;
 const createJwtToken_1 = require("./createJwtToken");
 const generateTokens = (user) => __awaiter(void 0, void 0, void 0, function* () {
-    const accessToken = (0, createJwtToken_1.createJwtToken)(user);
-    const refreshToken = (0, createJwtToken_1.encryptRefreshToken)(user);
+    const [accessToken, refreshToken] = yield Promise.all([
+        (0, createJwtToken_1.createJwtToken)(user),
+        (0, createJwtToken_1.encryptRefreshToken)(user)
+    ]);
     return {
         accessToken,
         refreshToken
