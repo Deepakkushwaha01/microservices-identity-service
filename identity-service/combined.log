@@ -617,3 +617,6 @@
 [36midentity-service:[39m [33m2025-05-04 12:31:52[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
 [36midentity-service:[39m [33m2025-05-04 12:31:52[39m : [32minfo[39m: [91mRedis client connected successfully[39m
 [36midentity-service:[39m [33m2025-05-04 12:31:54[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-04 13:24:49[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-04 13:24:49[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-04 13:24:51[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
