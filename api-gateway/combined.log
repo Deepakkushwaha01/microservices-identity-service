@@ -63,3 +63,9 @@
 [36mapi-gateway:[39m [33m2025-05-10 10:26:48[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
 [36mapi-gateway:[39m [33m2025-05-10 10:27:05[39m : [32minfo[39m: Response received from Identity service: 409
 [36mapi-gateway:[39m [33m2025-05-10 10:27:32[39m : [32minfo[39m: Response received from Identity service: 200
+[36mapi-gateway:[39m [33m2025-05-14 10:45:42[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-14 10:50:41[39m : [32minfo[39m: Response received from Identity service: 400
+[36mapi-gateway:[39m [33m2025-05-14 10:51:34[39m : [32minfo[39m: Response received from Identity service: 400
+[36mapi-gateway:[39m [33m2025-05-14 10:52:53[39m : [32minfo[39m: Response received from Identity service: 400
+[36mapi-gateway:[39m [33m2025-05-14 10:58:12[39m : [32minfo[39m: Response received from Identity service: 200
+[36mapi-gateway:[39m [33m2025-05-14 10:58:50[39m : [32minfo[39m: Response received from Identity service: 409

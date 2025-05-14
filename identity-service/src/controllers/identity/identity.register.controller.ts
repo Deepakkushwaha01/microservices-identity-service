@@ -19,7 +19,6 @@ const registerIdentity = async (req: Request, res: Response) => {
     const isValid = IdentitySchema.safeParse(req.body as IIdentity)
     if(!isValid.success) {
       const error = isValid.error
-      logger.warn(globalConstants.VALIDATION_ERROR, error.issues[0].message)
       await session.abortTransaction()
       session.endSession()
       result.badRequest({ message: error.issues[0].message })

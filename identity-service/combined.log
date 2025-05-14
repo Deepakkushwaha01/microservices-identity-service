@@ -756,3 +756,89 @@
 [36midentity-service:[39m [33m2025-05-10 10:07:29[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
 [36midentity-service:[39m [33m2025-05-10 10:07:29[39m : [32minfo[39m: [91mRedis client connected successfully[39m
 [36midentity-service:[39m [33m2025-05-10 10:07:32[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 10:45:50[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 10:45:53[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 10:46:36[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 10:46:52[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 10:46:52[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 10:46:55[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 10:50:41[39m : [35mwarn[39m: Validation error
+[36midentity-service:[39m [33m2025-05-14 10:51:26[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 10:51:26[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 10:51:28[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 10:51:34[39m : [35mwarn[39m: Validation error
+[36midentity-service:[39m [33m2025-05-14 10:52:29[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 10:52:29[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 10:52:31[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 10:52:49[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 10:52:49[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 10:52:52[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 10:52:53[39m : [35mwarn[39m: Validation error
+[36midentity-service:[39m [33m2025-05-14 10:52:53[39m : [35mwarn[39m: Validation error
+[36midentity-service:[39m [33m2025-05-14 10:57:56[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 10:57:56[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 10:57:59[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-01.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:03:09[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:03:09[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:03:11[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:03:44[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:03:44[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:03:46[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:04:23[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:04:23[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:04:25[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:05:44[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:05:44[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:05:46[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:06:53[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:06:53[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:06:56[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:12:21[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:12:21[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:12:23[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:12:31[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:12:31[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:12:33[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:14:29[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:14:29[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:14:31[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:14:51[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:14:51[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:14:54[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:16:36[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:16:36[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:16:38[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:16:47[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:16:47[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:16:49[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:17:12[39m : [35mwarn[39m: Access attempt without valid token!
+[36midentity-service:[39m [33m2025-05-14 11:19:23[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:19:23[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:19:26[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:24:16[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:24:16[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:24:18[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:27:38[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:27:38[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:27:40[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:28:57[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:28:57[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:28:59[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:31:16[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:31:16[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:31:18[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:31:23[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:31:23[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:31:26[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:34:18[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:34:18[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:34:21[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-02.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:34:32[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:34:32[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:34:34[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:34:42[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:34:42[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:34:45[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net
+[36midentity-service:[39m [33m2025-05-14 11:34:56[39m : [32minfo[39m: [35mIdentity service is running on port 3001[39m
+[36midentity-service:[39m [33m2025-05-14 11:34:56[39m : [32minfo[39m: [91mRedis client connected successfully[39m
+[36midentity-service:[39m [33m2025-05-14 11:34:58[39m : [32minfo[39m: MongoDB connected: ac-rxp7qnz-shard-00-00.md4x7ja.mongodb.net

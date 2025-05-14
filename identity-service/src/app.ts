@@ -9,6 +9,8 @@ import cors from 'cors'
 import errorHandler from './middlewares/errorHandler'
 import rateLimit from 'express-rate-limit'
 import connectToRedis from './middlewares/redis/redisHandler'
+import swaggerUi from 'swagger-ui-express'
+import { swaggerDocumentation } from './docs/swagger/swagger'
 
 const app: Express = express()
 dotenv.config()
@@ -54,6 +56,9 @@ app.use(helmet())
 app.use(cors())
 
 app.use(errorHandler) // handler for errors which are not caught by the above middleware
+
+
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocumentation));
 
 app.listen(PORT, () => {
   logger.info(chalk.magenta(`Identity service is running on port ${PORT}`))

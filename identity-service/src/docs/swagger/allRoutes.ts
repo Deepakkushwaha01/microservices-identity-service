@@ -1,0 +1,1 @@
+import '../swaggerRoutes/identity/identity.register.swagger'

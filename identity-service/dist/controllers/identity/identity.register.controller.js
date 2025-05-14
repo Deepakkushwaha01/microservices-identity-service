@@ -26,12 +26,13 @@ const registerIdentity = (req, res) => __awaiter(void 0, void 0, void 0, functio
     const session = yield mongoose_1.default.startSession();
     session.startTransaction();
     try {
-        const { error } = (0, identity_validation_1.validateIdentityRegistration)(req.body);
-        if (error) {
-            logger_1.default.warn(global_constant_1.globalConstants.VALIDATION_ERROR, error.details[0].message);
+        const isValid = identity_validation_1.IdentitySchema.safeParse(req.body);
+        if (!isValid.success) {
+            const error = isValid.error;
+            logger_1.default.warn(global_constant_1.globalConstants.VALIDATION_ERROR, error.issues[0].message);
             yield session.abortTransaction();
             session.endSession();
-            result.badRequest({ message: error.details[0].message });
+            result.badRequest({ message: error.issues[0].message });
             return;
         }
         const { email, password, userName } = req.body;

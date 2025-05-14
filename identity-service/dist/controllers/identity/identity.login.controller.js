@@ -26,9 +26,11 @@ const loginIdentity = (req, res) => __awaiter(void 0, void 0, void 0, function* 
     const session = yield mongoose_1.default.startSession();
     session.startTransaction();
     try {
-        const { error } = (0, identity_validation_1.validateIdentityLogin)(req.body);
-        if (error) {
-            result.badRequest({ message: error.details[0].message });
+        const isValid = identity_validation_1.IdentityLoginSchema.safeParse(req.body);
+        if (!isValid.success) {
+            const error = isValid.error;
+            logger_1.default.warn(global_constant_1.globalConstants.VALIDATION_ERROR, error.issues[0].message);
+            result.badRequest({ message: error.issues[0].message });
             return;
         }
         const { email, password } = req.body;
