@@ -1,6 +1,6 @@
 import { Request, Response } from 'express'
 import logger from '../../logs/logger'
-import { IIdentity, validateIdentityRegistration } from './identity.validation'
+import { IIdentity, IdentitySchema } from './identity.validation'
 import { Result } from '../../utils/helpers/Result'
 import { globalConstants, userConstants } from '../../utils/constants/global.constant'
 import User from '../../models/user.schema'
@@ -16,14 +16,13 @@ const registerIdentity = async (req: Request, res: Response) => {
   session.startTransaction()
 
   try {
-    const { error } = validateIdentityRegistration(req.body as IIdentity)
-    if (error) {
-      logger.warn(globalConstants.VALIDATION_ERROR, error.details[0].message)
-
+    const isValid = IdentitySchema.safeParse(req.body as IIdentity)
+    if(!isValid.success) {
+      const error = isValid.error
+      logger.warn(globalConstants.VALIDATION_ERROR, error.issues[0].message)
       await session.abortTransaction()
       session.endSession()
-
-      result.badRequest({ message: error.details[0].message })
+      result.badRequest({ message: error.issues[0].message })
       return
     }
 

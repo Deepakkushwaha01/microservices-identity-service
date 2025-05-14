@@ -15,6 +15,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.identityServiceProxy = exports.IdentityServiceProxyOptions = void 0;
 const logger_1 = __importDefault(require("../../logs/logger"));
 const express_http_proxy_1 = __importDefault(require("express-http-proxy"));
+const dotenv_1 = __importDefault(require("dotenv"));
+dotenv_1.default.config();
 const commonProxyOptions = {
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
         proxyReqOpts.headers["Content-Type"] = "application/json";

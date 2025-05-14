@@ -90,3 +90,14 @@
     at processParams (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:582:12)
     at next (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:291:5)
     at Function.handle (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:186:3)
+[36midentity-service:[39m [33m2025-05-04 14:32:26[39m : [31merror[39m: Error: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:699:11)
+    at contentSecurityPolicyMiddleware (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/helmet/index.cjs:123:8)
+    at internalNext (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/helmet/index.cjs:529:6)
+    at helmetMiddleware (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/helmet/index.cjs:533:6)
+    at Layer.handleRequest (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/lib/layer.js:152:17)
+    at trimPrefix (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:342:13)
+    at /Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:297:9
+    at processParams (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:582:12)
+    at Immediate.next (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:291:5)
+    at Immediate._onImmediate (/Users/deepakkushwaha/Documents/Repos/Microservices-Identity/identity-service/node_modules/router/index.js:688:15)

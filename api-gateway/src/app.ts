@@ -31,6 +31,8 @@ app.use('/v1/auth', identityServiceProxy)
 
 app.use(errorHandler)
 
+
 app.listen(PORT, () => {
     logger.info(chalk.magenta(`Identity service is running on port ${PORT}`))
+
   })

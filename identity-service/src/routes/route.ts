@@ -1,9 +1,17 @@
 import express from 'express'
 import registerIdentity from '../controllers/identity/identity.register.controller'
+import authMiddleware from '../middlewares/authMiddleware'
+import loginIdentity from '../controllers/identity/identity.login.controller'
 
 const router = express.Router()
 
+// Register route without auth middleware
 router.post('/register-identity', registerIdentity)
+router.post('/login-identity', loginIdentity)
+
+
+// Apply auth middleware to everything below
+router.use(authMiddleware)
 
 // Example of errorhandler in middleware
 // This is a sample route that throws an error to demonstrate the error handling middleware

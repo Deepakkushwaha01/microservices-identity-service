@@ -43,3 +43,23 @@
 [36mapi-gateway:[39m [33m2025-05-04 13:24:55[39m : [32minfo[39m: Response received from Identity service: 200
 [36mapi-gateway:[39m [33m2025-05-04 13:25:05[39m : [35mwarn[39m: Sensitive endpoint rate limit exceeded for IP: ::1
 [36mapi-gateway:[39m [33m2025-05-04 13:26:23[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-04 13:28:43[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-04 13:37:12[39m : [32minfo[39m: Response received from Identity service: 401
+[36mapi-gateway:[39m [33m2025-05-04 13:37:25[39m : [32minfo[39m: Response received from Identity service: 401
+[36mapi-gateway:[39m [33m2025-05-04 14:26:01[39m : [32minfo[39m: Response received from Identity service: 401
+[36mapi-gateway:[39m [33m2025-05-04 14:28:52[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-04 14:31:40[39m : [32minfo[39m: Response received from Identity service: 401
+[36mapi-gateway:[39m [33m2025-05-04 14:32:26[39m : [32minfo[39m: Response received from Identity service: 200
+[36mapi-gateway:[39m [33m2025-05-10 10:07:09[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-10 10:11:43[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-10 10:12:37[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-10 10:13:01[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-10 10:15:35[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-10 10:15:43[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-10 10:15:47[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-10 10:16:10[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-10 10:16:13[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-10 10:19:23[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-10 10:26:48[39m : [32minfo[39m: [35mIdentity service is running on port 3000[39m
+[36mapi-gateway:[39m [33m2025-05-10 10:27:05[39m : [32minfo[39m: Response received from Identity service: 409
+[36mapi-gateway:[39m [33m2025-05-10 10:27:32[39m : [32minfo[39m: Response received from Identity service: 200
